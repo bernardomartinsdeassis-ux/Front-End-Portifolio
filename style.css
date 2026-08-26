@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav{
+  position: relative;
+  z-index: 1000;
+  background-color:#63696e;
+  font-weight: bold;
+
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+
+  gap:150px;
+  padding: 5px;
+
+  display:flex;
+  align-items: flex-start;
+  justify-content:flex-end;
+
+  border-bottom: 10px solid #4e5357;
+}
+
+#inicio{
+  background-color: #3c4043;
+  color: white;
+
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+
+  height: 800px;
+}
+#formacao{
+  background-color: #43484b;
+  color: white;
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 50px;
+  height: 800px;
+}
+#portfolio{
+  background-color: #3c4043;
+  color: white;
+
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  padding: 100px;
+  height: 1000px;
+}
+#contato{
+  background-color: #43484b;
+  color: white;
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+
+  padding: 50px;
+  height: 600px;
+}
+
+.titulo{
+  font-family: "Merriweather", serif;
+  font-size: 90px;
+  font-weight: bold;
+}
+.midtext{
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+  font-weight: bold;
+  background-color: #63696e;
+  border-radius:10px;
+  border: 20px solid #63696e;
+  border-bottom: 0px #63696e;
+}
+.smtext{
+  background-color: #63696e;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  border-radius:10px;
+  border: 20px solid #63696e;
+}
+.displayimgtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.textdiv{
+  display:flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content:flex-start;
+
+  padding:50px;
+  gap: 200px;
+}
+
+a:link {
+  color: rgb(228, 227, 227);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(228, 227, 227);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: rgb(228, 227, 227);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*quais estados de um link no html
+
+ids nos elementos, 
+links tem href, colocar o id do elemento dentro do href
+<a href="#id-do-elemento">Link</a>
+smooth behavior
